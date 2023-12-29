@@ -6,6 +6,7 @@ from homeassistant.const import (
     UnitOfPressure,
     UnitOfTemperature,
     UnitOfTime,
+    UnitOfVolumeFlowRate,
 )
 
 DOMAIN = "ebusd"
@@ -278,6 +279,13 @@ SENSOR_TYPES = {
             "mdi:percent",
             0,
             None,
+        ],
+        "FlowRatePrimaryCircuit": [
+            "PrimaryCircuitFlowrate",
+            UnitOfVolumeFlowRate.LITERS_PER_MINUTE,
+            "mdi:water-pump",
+            0,
+            SensorDeviceClass.WATER,
         ],
     },
 }
