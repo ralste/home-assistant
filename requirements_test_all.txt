@@ -113,7 +113,7 @@ RtmAPI==0.7.2
 
 # homeassistant.components.recorder
 # homeassistant.components.sql
-SQLAlchemy==2.0.23
+SQLAlchemy==2.0.24
 
 # homeassistant.components.tami4
 Tami4EdgeAPI==2.1
@@ -424,7 +424,7 @@ arcam-fmj==1.4.0
 async-upnp-client==0.38.0
 
 # homeassistant.components.sleepiq
-asyncsleepiq==1.4.0
+asyncsleepiq==1.4.1
 
 # homeassistant.components.aurora
 auroranoaa==0.0.3
@@ -958,7 +958,7 @@ loqedAPI==2.1.8
 luftdaten==0.7.4
 
 # homeassistant.components.scrape
-lxml==4.9.3
+lxml==4.9.4
 
 # homeassistant.components.nmap_tracker
 mac-vendor-lookup==0.1.12
@@ -1810,7 +1810,7 @@ ring-doorbell[listen]==0.8.5
 rokuecp==0.18.1
 
 # homeassistant.components.roomba
-roombapy==1.6.8
+roombapy==1.6.10
 
 # homeassistant.components.roon
 roonapi==0.1.6
@@ -1985,7 +1985,7 @@ tesla-wall-connector==1.0.2
 tessie-api==0.0.9
 
 # homeassistant.components.thermobeacon
-thermobeacon-ble==0.6.0
+thermobeacon-ble==0.6.2
 
 # homeassistant.components.thermopro
 thermopro-ble==0.5.0
